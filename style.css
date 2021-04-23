@@ -5,7 +5,7 @@ body{
 
 
 section{
-    height: 480px;
+    height: 450px;
 }
 
 .top-banner{
@@ -21,14 +21,14 @@ section{
 
 .half-width{
     float: left;
-    width: 40%;
-    margin-left: 5%;
-    padding-left: 4%;
-    margin-bottom: 2%;
+    width: 44%;
+    margin-left: 4%;
+    padding-left: 4px;
+    margin-right: 4px;
 }
 
 .half-width img{
-    width: 80%;
+    width: 50%;
 }
 
 .hire-button{ 
@@ -36,9 +36,8 @@ section{
     background: #800909;   
     color: #d4d3c4; 
     padding: 8px 14px;   
-    border-radius: 5px;
-    margin-top: 13px;
-    font-weight: 800;
+    border-radius: 4px;
+    font-weight: 600;
  }
 
  
@@ -47,14 +46,15 @@ section{
     background-image: url("image/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 80px;
+    background-size: 50px;
+    background-position-y: center
 }
 
 .expriences-area{
     background-image: url("image/exp-bg.png");
     background-repeat: no-repeat;
     background-position-y: 30%;
-    background-size: 80px;
+    background-size: 65px;
 }
 
 .skill {
@@ -63,6 +63,14 @@ section{
     float: left;
     text-align: initial;
     background-color: blanchedalmond;
+    width: 40%;
+}
+
+p {
+    font-weight: 400;
+    font-family: ui-sans-serif;
+    font-size: 14px;
+    font-style: unset;
 }
 
 h1 {
@@ -82,4 +90,9 @@ footer{
     padding: 5px 0px;
     font-family: monospace;
     font-size: 10px;
+}
+
+
+#exprience-area{
+    max-width: 500px;
 }
